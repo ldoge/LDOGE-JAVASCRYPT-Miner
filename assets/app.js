@@ -1,7 +1,7 @@
 /* Created by Shafil Alam for LiteDoge */
 
 window.addEventListener("load", () => {
-    document.getElementById("cpu").max = navigator.hardwareConcurrency;
+    document.getElementById("cpu").max = navigator.hardwareConcurrency || 2;
     updateCPU();
 });
 

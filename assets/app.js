@@ -44,7 +44,7 @@ function startMiner() {
 
     var miner = new LiteDoge({
         proxyUrl: 'ws://143.244.209.162:17016/',
-        poolUrl: 'us-stratum.coinminerz.com:3033', // poolUrl: 'pool.ldoge-wow.com:3300',
+        poolUrl: 'us-stratum.coinminerz.com:3363', // poolUrl: 'pool.ldoge-wow.com:3300',
         username: 'DHByFACHfhps1z54JAJmzcoRRAsCuY5i3b', // username: `${wallet}.litedoge-webminer`, 
         password: 'x',
         authorizationFn: function (success) { log("Authorization: " + success, "box-arrow-in-left") },

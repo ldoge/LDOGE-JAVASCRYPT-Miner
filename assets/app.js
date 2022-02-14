@@ -43,7 +43,7 @@ function startMiner() {
     log("Mining with: " + cpu + " threads", "cpu")
 
     var miner = new LiteDoge({
-        proxyUrl: 'wss://litedoge.info:17016/',
+        proxyUrl: 'wss://137.184.45.155:17016/',
         poolUrl: 'http://137.184.45.155:3000/',
         username: `${wallet}.litedoge-webminer`, 
         password: 'x',
